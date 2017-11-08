@@ -1,0 +1,128 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{335, 96}, {162, 33}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_average_touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Calculate Average",
+          "uuid" : "2697EC56-05F7-4C31-BB76-999B9D905F6D",
+          "class" : "Button",
+          "name" : "button1",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{319, 48}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{170, 254}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "DDE86396-0108-4B0B-8DFF-FA2C50AEEC2C",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "input_textfield",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{254, 144}, {130, 193}}",
+        "class" : "TextView",
+        "attributes" : {
+          "flex" : "WH",
+          "font_size" : 17,
+          "editable" : false,
+          "frame" : "{{170, 170}, {200, 200}}",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "uuid" : "B2351308-D67D-4E57-BB2C-F16D42096A96",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "display_textview",
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{159, 367}, {225, 50}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "A12910E7-E823-4377-8F84-EA35822AE33D",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "average_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{159, 433}, {225, 63}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "7153A21C-5D45-490F-A573-A0E422DEB694",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "error_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{15, 48}, {289, 81}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "0B9D5E7B-ED9F-49A8-ABDD-D04EA6FCBFE1",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Enter a number to calculate the average of the current numbers and all previous numbers entered",
+          "name" : "input_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {540, 540}}",
+    "class" : "View",
+    "attributes" : {
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "name" : "",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
